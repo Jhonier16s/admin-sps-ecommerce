@@ -101,12 +101,12 @@ export default function ProductsPage() {
           </div>
         </div>
       </Card>
-      <ProductList
+      {/* <ProductList
         products={data?.products}
         onPagination={handlePagination}
         onOrder={setOrder}
         onSort={setColumn}
-      />
+      /> */}
     </>
   );
 }

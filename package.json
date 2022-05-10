@@ -1,5 +1,5 @@
 {
-  "name": "@chawkbazar/admin-rest",
+  "name": "admin-rest",
   "version": "1.0.0",
   "private": true,
   "scripts": {

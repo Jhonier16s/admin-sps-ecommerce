@@ -59,12 +59,12 @@ export default function Coupons() {
           </LinkButton>
         </div>
       </Card>
-      <CouponList
+     {/*  <CouponList
         coupons={data?.coupons}
         onPagination={handlePagination}
         onOrder={setOrder}
         onSort={setColumn}
-      />
+      /> */}
     </>
   );
 }

@@ -113,14 +113,14 @@ const CustomerList = ({ customers, onPagination, onSort, onOrder }: IProps) => {
   return (
     <>
       <div className="rounded overflow-hidden shadow mb-6">
-        <Table
+       {/*  <Table
           // @ts-ignore
           columns={columns}
           emptyText={t("table:empty-table-data")}
           data={data}
           rowKey="id"
           scroll={{ x: 800 }}
-        />
+        /> */}
       </div>
 
       {!!paginatorInfo.total && (

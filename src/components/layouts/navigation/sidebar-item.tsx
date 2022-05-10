@@ -8,7 +8,7 @@ const SidebarItem = ({ href, icon, label }: any) => {
   return (
     <Link
       href={href}
-      className="flex w-full items-center text-base text-body-dark text-start focus:text-accent"
+      className="flex w-full  text-heading items-center text-base text-body-dark text-start focus:text-accent"
     >
       {getIcon({
         iconList: sidebarIcons,

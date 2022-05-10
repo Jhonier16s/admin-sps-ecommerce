@@ -12,7 +12,7 @@ module.exports = withPWA({
 
   images: {
     domains: [
-      "http://api-marketplace.sparklifesps.com/",
+      "pickbazarapi.redq.io",
       "via.placeholder.com",
       "res.cloudinary.com",
       "s3.amazonaws.com",

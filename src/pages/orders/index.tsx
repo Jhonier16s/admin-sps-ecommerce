@@ -49,12 +49,12 @@ export default function Orders() {
         </div>
       </Card>
 
-      <OrderList
+      {/* <OrderList
         orders={data?.orders}
         onPagination={handlePagination}
         onOrder={setOrder}
         onSort={setColumn}
-      />
+      /> */}
     </>
   );
 }

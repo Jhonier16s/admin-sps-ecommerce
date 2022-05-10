@@ -39,9 +39,9 @@ export default function AllShopPage() {
   }
   return (
     <>
-      <Card className="flex flex-col md:flex-row items-center justify-between mb-8">
+      <Card className="flex bg-blackSps flex-col md:flex-row items-center justify-between mb-8">
         <div className="md:w-1/4 mb-4 md:mb-0">
-          <h1 className="text-lg font-semibold text-heading">
+          <h1 className="text-lg font-semibold text-white">
             {t("common:sidebar-nav-item-shops")}
           </h1>
         </div>

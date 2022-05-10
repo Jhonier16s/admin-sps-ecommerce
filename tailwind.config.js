@@ -49,6 +49,10 @@ module.exports = {
         "gray-700": withOpacity("--color-gray-700"),
         "gray-800": withOpacity("--color-gray-800"),
         "gray-900": withOpacity("--color-gray-900"),
+        blackSps: "#0B1228",
+        yellowSps: "#FFB300",
+        gradientOneBlue: "#342C89",
+        gradientTwoPurple: "#62329A",
         social: {
           facebook: "#3b5998",
           "facebook-hover": "#35508a",

@@ -42,12 +42,12 @@ export default function WithdrawsPage() {
         </div>
       </Card>
 
-      <WithdrawList
+     {/*  <WithdrawList
         withdraws={data?.withdraws}
         onPagination={handlePagination}
         onOrder={setOrder}
         onSort={setColumn}
-      />
+      /> */}
     </>
   );
 }

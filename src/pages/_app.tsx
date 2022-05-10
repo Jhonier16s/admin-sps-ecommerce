@@ -47,7 +47,7 @@ const CustomApp = ({ Component, pageProps }: AppProps) => {
             <ModalProvider>
               <>
               <Head>
-                <title>Hola</title>
+                <title>Cryptocommerce</title>
               </Head>
                 <DefaultSeo />
                 {authProps ? (

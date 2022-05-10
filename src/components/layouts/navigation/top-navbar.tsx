@@ -20,13 +20,13 @@ const Navbar = () => {
   const { permissions } = getAuthCredentials();
 
   return (
-    <header className="bg-white shadow fixed w-full z-40">
+    <header className="bg-blackSps shadow fixed w-full z-40">
       <nav className="px-5 md:px-8 py-4 flex items-center justify-between">
         {/* <!-- Mobile menu button --> */}
         <motion.button
           whileTap={{ scale: 0.88 }}
           onClick={toggleSidebar}
-          className="flex p-2 h-full items-center justify-center focus:outline-none focus:text-accent lg:hidden"
+          className="flex p-2 h-full text-yellowSps items-center justify-center focus:outline-none focus:text-accent lg:hidden"
         >
           <NavbarIcon />
         </motion.button>
@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="hidden md:flex ms-5 me-auto">
           <Link href={ROUTES.DASHBOARD}>
             <div>
-              <h3 className="font-semibold text-lg">CryptoCommerce</h3>
+              <h3 className="font-bold text-yellowSps hover:text-white text-lg">CryptoCommerce</h3>
             </div>
           </Link>
         </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
           {hasAccess(adminAndOwnerOnly, permissions) && (
             <LinkButton
               href={ROUTES.CREATE_SHOP}
-              className="ms-4 md:ms-6"
+              className="ms-4 md:ms-6 border-6 border-yellowSps"
               size="small"
             >
               {t("common:text-create-shop")}
