@@ -5,14 +5,14 @@ import StickerCard from "@components/widgets/sticker-card";
 import ErrorMessage from "@components/ui/error-message";
 import usePrice from "@utils/use-price";
 import Loader from "@components/ui/loader/loader";
- import RecentOrders from "@components/order/recent-orders";
-import PopularProductList from "@components/product/popular-product-list"; 
+import RecentOrders from "@components/order/recent-orders";
+import PopularProductList from "@components/product/popular-product-list";
 import { useOrdersQuery } from "@data/order/use-orders.query";
 import { usePopularProductsQuery } from "@data/analytics/use-popular-products.query";
 import { useAnalyticsQuery } from "@data/analytics/use-analytics.query";
 import { useTranslation } from "next-i18next";
 import { useWithdrawsQuery } from "@data/withdraw/use-withdraws.query";
-import WithdrawTable from "@components/withdraw/withdraw-table"; 
+import WithdrawTable from "@components/withdraw/withdraw-table";
 import { ShopIcon } from "@components/icons/sidebar";
 import { DollarIcon } from "@components/icons/shops/dollar";
 
@@ -123,9 +123,10 @@ export default function Dashboard() {
         />
       </div>
 
-       <div className="w-full flex flex-wrap mb-6">
+      <div className="w-full flex flex-wrap mb-6">
         <div className="w-full sm:w-1/2 xl:w-1/2 sm:px-3 sm:pl-0 mb-6 xl:mb-0">
           <RecentOrders
+            //@ts-ignore
             orders={orderData?.orders?.data}
             title={t("table:recent-order-table-title")}
           />
@@ -144,7 +145,7 @@ export default function Dashboard() {
           products={popularProductData}
           title={t("table:popular-products-table-title")}
         />
-      </div> 
+      </div>
     </>
   );
 }

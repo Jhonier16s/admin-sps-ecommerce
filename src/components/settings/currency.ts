@@ -9,13 +9,13 @@ export const CURRENCY = [
     name_plural: "US dollars",
   },
   {
-    symbol: "CA$",
-    name: "Canadian Dollar",
-    symbol_native: "$",
+    symbol: "SPS",
+    name: "SPS Coin",
+    symbol_native: "SPS",
     decimal_digits: 2,
     rounding: 0,
-    code: "CAD",
-    name_plural: "Canadian dollars",
+    code: "SPS",
+    name_plural: "Sps coins",
   },
   {
     symbol: "€",

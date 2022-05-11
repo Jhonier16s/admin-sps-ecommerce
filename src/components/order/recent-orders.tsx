@@ -71,7 +71,7 @@ const RecentOrders = ({ orders, title }: IProps) => {
 
 	return (
 		<>
-			<div className="rounded overflow-hidden shadow mb-6">
+			<div className="rounded overflow-hidden shadow mb-6 ">
 				<h3 className="text-heading text-center font-semibold px-4 py-3 bg-light border-b border-border-200">
 					{title}
 				</h3>
